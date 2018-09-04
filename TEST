@@ -1,0 +1,146 @@
+
+
+Task 1.​ What is Linux​? Explain 5 linux​ commands.
+--------------------------------------------------
+
+
+Linux is like a unix.linux is a open source operating systems for computres,mobiles,server and embedded devices.
+linux supports on major computer platforms.linux is one of the most widely used paltform
+
+
+Example:
+--------
+ cd,ls,mkdir,rmdir,pwd,cat,append,
+
+
+Task 2.​ Define Linux Kernel​?
+----------------------------
+linux kernal is a computer program and its core of the operating systems.
+kernal is used known the Operating system version, hostname.
+
+
+Task 3.​ What is the difference between 32bit​ and 64bit​ computers? How much
+maximum memory access​ they can have?
+----------------------------------------------------------------------------
+
+32 bit computer
+----------------                       
+
+32 bit computer refers the computer processor also called Central Processing Unit
+32 bit computers handle the huge amount of randaom access memory
+32 bit is defined by 2^32
+
+
+
+64 bit computer
+---------------
+
+64 bit computer refers the computer processor also called central processing unit CPU
+64 bit computers handle the large amount of random access memory
+64 bit is defined by 2^64
+
+maximum memory access is 2^256
+
+
+Task 4.​ What is git​ 
+-------------------
+
+git is a one of the open source database. git is available in version 2.0.
+git can be share the data in single user or multiple users such as team participant
+git can be used to share the data between the users
+
+what version​ installed in your Linux machine
+--------------------------------------------
+git version 2.7.4
+
+
+6.​ What is low level language​ and high level language​? Give examples.
+--------------------------------------------------------------------
+
+high level languages will be converted into a machine readble form by a compiler or interprter.
+high lvel languages required more spaces.
+high level languages are non compact
+high level languages are easy to write as well as compile
+
+example 
+-------
+
+class square
+ {
+flaot r1 = b
+float r2 = h
+float surface ()
+return b*h/6
+}
+ 
+
+low level language is machine readble form of program
+low level languages required less space
+lo level languages are compact.
+low level language are difficult to write and compile 
+
+example 
+---------
+
+load  r1,b
+load r2,h
+mul r1*r2
+div r2,#r1
+
+Task 7.​ Define object​ in the context of object oriented programming​. Give
+code example​ in any object oriented language.
+-------------------------------------------------------------------------
+
+Object Oriented Programming language is a high level programming language based on Object Oriented Programming(OOP) model.
+
+syntax 
+-------
+
+circle testObject = new circle();
+
+class Circle 
+{         
+private:
+   double radius;      
+public:   
+   double getRadius(); 
+   double getArea();
+}
+
+
+Task 8.​ Write a python code​ to print your linux distribution​ name and kernel
+version.
+----------------------------------------------------------------------------
+
+import sys
+print ("python version")
+print (sys.version)
+print ("version info.")
+print (sys.version_info)
+
+
+
+Task 9.​ Write a python​ code using function, file input ​and print​ each line with line number​ in the terminal.
+------------------------------------------------------------------------------------------------------------
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+} 
+print(thisdict)
+print(len(thisdict()))
+print 
+
+Task 10.​ Write a python​ code using class​ (at least 3 functions inside) and dictionary.
+-------------------------------------------------------------------------------------
+
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+
