@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 
 # specific dependency modules next
+
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
 
 #system level imports first
+
 import sys
 import os
 import io
 import json
+
 #global package imports next
+
 import requests
 import gzip
 from datetime import datetime
@@ -28,10 +32,10 @@ def archive_link(input_link):
     try:
         for a in input_link.find_all('a'):
             # print(a.get_text())
+
             if "Journal homepage" in a.get_text():
                 journal_link=a['href']
-                # print(journal_link)
-
+                
             if "Online archive" in a.get_text():
                 online_archive=a['href']
 
