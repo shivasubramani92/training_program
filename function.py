@@ -1,6 +1,5 @@
-def university():
-    print("HELLO ANNA UNIVERSITY")
-    print("BARATHISAN UNIVERSITY IS GREAT")
-university()
-   
-    
+def my_name():
+ print("HAI SIVA SUBRAMANI")
+
+my_name()
+
